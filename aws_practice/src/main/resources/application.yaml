@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: aws_practice
+  datasource:
+    url:jdbc:mysql://instagram-db.cj26ckoic3iv.ap-northeast-2.rds.amazonaws.com:3306/test
+    username: admin
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    cloud:
+      aws:
+        credentials:
+          access-key: AKIAXP24JV7ULNKBPDCA
+          secret-key: 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
+        s3:
+          bucket: test-static-files-usy
+        region:
+          static: ap-northeast-2
+server:
+  port:80
+

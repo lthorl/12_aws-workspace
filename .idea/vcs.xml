@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Aws_Practice" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/rds-express-sequelize-sample" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/s3-express-sample" vcs="Git" />
   </component>
